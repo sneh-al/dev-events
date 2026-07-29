@@ -7,7 +7,7 @@ export type EventItem = {
   time: string; // e.g., "09:00 AM"
 };
 
-export const events: EventItem[] = [
+export const eevents: EventItem[] = [
   {
     image: "/images/event1.png",
     title: "React Summit US 2025",
@@ -57,7 +57,7 @@ export const events: EventItem[] = [
     time: "10:00 AM",
   },
   {
-    image: "/images/events-full.png",
+    image: "/images/event-full.png",
     title: "Open Source Summit North America 2026",
     slug: "oss-na-2026",
     location: "Vancouver, Canada",
@@ -66,4 +66,4 @@ export const events: EventItem[] = [
   },
 ];
 
-export default events;
+export default eevents;
